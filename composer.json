@@ -1,0 +1,28 @@
+{
+    "name": "edund/SONBase",
+    "description": "Base para modulos em zf 2 de eduardo",
+    "type": "Library",
+    "license": "MIT",
+    "keywords": [
+        "module",
+        "zf2",
+		"son"
+    ],
+    "homepage": "http://framework.zend.com/",
+	"authors" : [
+		{
+			"name": "Eduardo Dantas",
+			"email": "eduardo.dantas@gmail.com"
+		}
+	],
+    "require": {
+        "php": ">=5.4.3",
+        "zendframework/zendframework": "~2.3",
+		"doctrine/doctrine-orm-module": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+			"SONBase": "src/"
+		}
+    }    
+}
